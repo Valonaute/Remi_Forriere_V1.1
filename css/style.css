@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration:none !important;
+    scroll-behavior: smooth;
+    margin: 0;
+    text-align: center;
+}
+div img {
+    display: none;
+}
+body {
+    background-color: black;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    box-shadow: rgb(44, 44, 52) 0px 0px 12px ;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 5;
+}
+
+nav a {
+    color: white;
+    font-size: 1.2em;
+    padding: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+iframe {
+    border-radius: 20px;
+}
+img {
+    border-radius: 20px;
+}
+footer {
+    margin-bottom: 2vh;
+    box-shadow: rgb(44, 44, 52) 0px 0px 12px ;
+}
+main {
+    margin-top: 15vh;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.voirplus {
+    text-decoration: underline;
+}
+.logo {
+    max-height: 10vh;
+}
+.logo-uk {
+    max-height: 2rem;
+}
+.logo-fr {
+    max-height: 2.0rem;
+}
+.contact , nav a:hover{
+    color: white;
+    background-color: rgb(218, 11, 11);
+    padding: 1em;
+    border-radius: 30px;
+}
+
+.accordion-item {
+    border: 1px solid rgb(44, 44, 44);
+    
+}
+
+.accordion-button:not(.collapsed) {
+    /* color: inherit; */
+    background: rgb(218, 11, 11);
+    color: #e8e8e8;
+}
+
+.accordion-button:not(.collapsed)::after  {
+    filter: brightness(00%) invert(70%);
+}
+
+.accordion-button:focus {
+    box-shadow: inherit;
+}
+
+
+#intro h2, h3 {
+    font-weight: 10;
+    margin: 1em;
+    font-size: 1.75em;
+}
+#intro h3 {
+    font-size: 1.3em;
+}
+#diamant {
+    font-style: italic;
+    font-weight: 900;
+}
+#remi img {
+    max-height: 50vh;
+}
+#remi h2 {
+    font-size: 2em;
+    margin: 1em;
+    font-weight: 10;
+}
+#remi span {
+    font-weight: 950;
+}
+#remi , #accueil , #temoignages {
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+#temoignages h2 {
+    font-size: 2em;
+    margin: 2vh;
+}
+#temoignages img {
+    max-height: 40vh;
+}
+#reseaux img {
+    max-height: 5vh;
+    max-width: 4vw;
+    border-radius: 5px;
+    margin: 1em;
+}
+#footer a {
+    color: white;
+    margin: 1em;
+}
+#retrouveznous {
+    margin-top: 1em;
+}
